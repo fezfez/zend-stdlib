@@ -105,7 +105,7 @@ abstract class CommonStringWrapperTest extends TestCase
             ['utf-8', 'ascii', 'abc', 'abc'],
             ['utf-8', 'iso-8859-15', '€',   "\xA4"],
             ['utf-8', 'iso-8859-16', '€',   "\xA4"], // ISO-8859-16 is wrong @ mbstring
-            ['utf-8', 'ascii', '€',   "\xA4"],
+            ['utf-8', 'ascii', '€', "\xA4"],
         ];
     }
 
